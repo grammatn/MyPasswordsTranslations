@@ -1,4 +1,4 @@
-## MyPasswords App Translations
+## My Passwords App Translations
 
 This open source project is meant to host translation files of the [My Passwords](https://play.google.com/store/apps/details?id=com.er.mo.apps.mypasswords) application for easier exchange and collaboration.
 For those who don't use the application in English would be really helpful.
