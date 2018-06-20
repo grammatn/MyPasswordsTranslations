@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="warning" xml:space="preserve">
+    <value>Προειδοποίηση</value>
+  </data>
+  <data name="alert_emptyTitel" xml:space="preserve">
+    <value>Ο τίτλος δεν μπορεί να είναι κενός</value>
+  </data>
+  <data name="app_description" xml:space="preserve">
+    <value>Μια ασφαλής και εύχρηστη εφαρμογή για τη διαχείριση των κωδικών σας</value>
+  </data>
+  <data name="app_name" xml:space="preserve">
+    <value>Οι Κωδικοί μου</value>
+  </data>
+  <data name="dialog_title_confirm_fp" xml:space="preserve">
+    <value>Ξεκλείδωμα εφαρμογής</value>
+  </data>
+  <data name="button_enter" xml:space="preserve">
+    <value>ΕΙΣΟΔΟΣ</value>
+  </data>
+  <data name="button_register" xml:space="preserve">
+    <value>ΕΓΓΡΑΦΗ</value>
+  </data>
+  <data name="myPasswords" xml:space="preserve">
+    <value>Όλες οι καταχωρήσεις</value>
+  </data>
+  <data name="favorites" xml:space="preserve">
+    <value>Αγαπημένα</value>
+  </data>
+  <data name="about" xml:space="preserve">
+    <value>Σχετικά με</value>
+  </data>
+  <data name="password" xml:space="preserve">
+    <value>Κωδικός</value>
+  </data>
+  <data name="repeatPassword" xml:space="preserve">
+    <value>Επαναλάβετε τον κωδικό</value>
+  </data>
+  <data name="errorPasswordIsTooShort" xml:space="preserve">
+    <value>Ο κωδικός είναι πολύ μικρός</value>
+  </data>
+  <data name="errorFieldRequired" xml:space="preserve">
+    <value>Απαιτούμενο πεδίο</value>
+  </data>
+  <data name="errorPasswordsMatch" xml:space="preserve">
+    <value>Οι κωδικοί δεν ταιριάζουν</value>
+  </data>
+  <data name="noEntries" xml:space="preserve">
+    <value>Δεν υπάρχουν καταχωρήσεις</value>
+  </data>
+  <data name="password_not_correct_title" xml:space="preserve">
+    <value>Προσοχή</value>
+  </data>
+  <data name="password_not_correct" xml:space="preserve">
+    <value>Ο κωδικός πρόσβασης δεν είναι σωστός</value>
+  </data>
+  <data name="password_not_correct_PRO" xml:space="preserve">
+    <value>Ο κωδικός πρόσβασης δεν είναι σωστός. Η αυτοκαταστροφή ενεργοποιείται και έχετε δοκιμάσει ακόμα {0}</value>
+  </data>
+  <data name="pref_about_title_contact" xml:space="preserve">
+    <value>Αναφορά σφάλματος</value>
+  </data>
+  <data name="pref_about_title_support" xml:space="preserve">
+    <value>Αξιολόγηση</value>
+  </data>
+  <data name="pref_about_title_share" xml:space="preserve">
+    <value>Πείτε το στους φίλους σας</value>
+  </data>
+  <data name="pref_about_title_translations" xml:space="preserve">
+    <value>Μεταφράσεις</value>
+  </data>
+  <data name="pref_about_title_licenses" xml:space="preserve">
+    <value>Άδειες ανοιχτού λογισμικού</value>
+  </data>
+  <data name="pref_about_title_build_version" xml:space="preserve">
+    <value>Έκδοση</value>
+  </data>
+  <data name="pref_about_title_terms" xml:space="preserve">
+    <value>Όροι και πολιτική απορρήτου</value>
+  </data>
+  <data name="pref_about_title_faq" xml:space="preserve">
+    <value>FAQ</value>
+  </data>
+  <data name="menu_upgrade" xml:space="preserve">
+    <value>PRO έκδοση</value>
+  </data>
+  <data name="button_upgrade_now" xml:space="preserve">
+    <value>ΑΝΑΒΑΘΜΙΣΗ ΤΩΡΑ</value>
+  </data>
+  <data name="menu_restore" xml:space="preserve">
+    <value>Επαναφορά PRO έκδοσης</value>
+  </data>
+  <data name="error_restore" xml:space="preserve">
+    <value>Δεν βρέθηκαν αγορά</value>
+  </data>
+  <data name="button_restore" xml:space="preserve">
+    <value>Επαναφορά</value>
+  </data>
+  <data name="inAppPurchaseCanceledTitle" xml:space="preserve">
+    <value>Πείτε μας την γνώμη σας</value>
+  </data>
+  <data name="inAppPurchaseCanceledMessage" xml:space="preserve">
+    <value>Λυπούμαστε πολύ αν δεν είστε ικανοποιημένοι με την εφαρμογή. Θα θέλατε να μας ενημερώσετε τι μπορούμε να βελτιστοποιήσουμε;</value>
+  </data>
+  <data name="error_network_connectivity" xml:space="preserve">
+    <value>Δεν είναι δυνατή η σύνδεση στο iTunes. Ελέγξτε τη συνδεσιμότητα δικτύου.</value>
+  </data>
+  <data name="upgrade_thank_you" xml:space="preserve">
+    <value>Σας ευχαριστούμε για την αγορά σας.</value>
+  </data>
+  <data name="all" xml:space="preserve">
+    <value>Όλα</value>
+  </data>
+  <data name="pro" xml:space="preserve">
+    <value>PRO </value>
+  </data>
+  <data name="features" xml:space="preserve">
+    <value>έξτρα</value>
+  </data>
+  <data name="upgrade_feature_1" xml:space="preserve">
+    <value>✔  Εξαγωγή και εισαγωγή .csv αρχείων</value>
+  </data>
+  <data name="upgrade_feature_2" xml:space="preserve">
+    <value>✔  Αυτόματη δημιουργία αντίγραφου ασφαλείας</value>
+  </data>
+  <data name="upgrade_feature_3" xml:space="preserve">
+    <value>✔  Αυτόματος καθαρισμός από το πρόχειρο</value>
+  </data>
+  <data name="upgrade_feature_4" xml:space="preserve">
+    <value>✔  Αυτοκαταστροφή</value>
+  </data>
+  <data name="upgrade_feature_5" xml:space="preserve">
+    <value>✔  Εισαγωγή με μοτίβο</value>
+  </data>
+  <data name="upgrade_feature_6" xml:space="preserve">
+    <value>✔  Προσαρμόσιμη γεννήτρια κωδικών</value>
+  </data>
+  <data name="upgrade_accept" xml:space="preserve">
+    <value>Με την αγορά της έκδοσης PRO αποδέχεστε τους όρους</value>
+  </data>
+  <data name="settings" xml:space="preserve">
+    <value>Ρυθμίσεις</value>
+  </data>
+  <data name="welcome_info_content" xml:space="preserve">
+    <value>Παρακαλούμε καταχωρήστε έναν κύριο κωδικό πρόσβασης για να χρησιμοποιείστε την εφαρμογή. Σημειώστε ότι, εάν ο κύριος κωδικός πρόσβασης χαθεί, η επαναφορά των δεδομένων είναι αδύνατη λόγω της έλειψης συγχρονισμού μέσω διαδικτύου. Συνίσταται ανεπιφύλακτα η δημιουργία αντιγράφων ασφαλείας ανά τακτά χρονικά διαστήματα.</value>
+  </data>
+  <data name="welcome_info_title" xml:space="preserve">
+    <value>Καλώς ήρθατε</value>
+  </data>
+  <data name="menu_search" xml:space="preserve">
+    <value>Αναζήτηση</value>
+  </data>
+  <data name="menuItem_Delete" xml:space="preserve">
+    <value>Διαγραφή</value>
+  </data>
+  <data name="edit" xml:space="preserve">
+    <value>Επεξεργασία</value>
+  </data>
+  <data name="labelTitle" xml:space="preserve">
+    <value>Τίτλος</value>
+  </data>
+  <data name="labelAccount" xml:space="preserve">
+    <value>Λογαριασμός</value>
+  </data>
+  <data name="labelUsername" xml:space="preserve">
+    <value>Όνομα χρήστη</value>
+  </data>
+  <data name="labelPassword" xml:space="preserve">
+    <value>Κωδικός</value>
+  </data>
+  <data name="labelWebsite" xml:space="preserve">
+    <value>Ιστοσελίδα</value>
+  </data>
+  <data name="labelDescription" xml:space="preserve">
+    <value>Περιγραφή</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>Ακύρωση</value>
+  </data>
+  <data name="m_continue" xml:space="preserve">
+    <value>Συνέχεια</value>
+  </data>
+  <data name="done" xml:space="preserve">
+    <value>Τέλος</value>
+  </data>
+  <data name="selectColor" xml:space="preserve">
+    <value>Επιλογή χρώματος</value>
+  </data>
+  <data name="copiedToClipboard" xml:space="preserve">
+    <value>Αντιγράφηκε στο πρόχειρο</value>
+  </data>
+  <data name="set_pro_autoBackup" xml:space="preserve">
+    <value>[PRO] Αυτόματη δημιουργία αντίγραφου ασφαλείας</value>
+  </data>
+  <data name="set_pro_csv" xml:space="preserve">
+    <value>[PRO] .csv</value>
+  </data>
+  <data name="set_pro_fingerprint" xml:space="preserve">
+    <value>[PRO] Δακτυλικό αποτύπωμα</value>
+  </data>
+  <data name="set_pro_clipboard" xml:space="preserve">
+    <value>[PRO] Πρόχειρο</value>
+  </data>
+  <data name="set_pro_selfDestruct" xml:space="preserve">
+    <value>[PRO] Αυτοκαταστροφή</value>
+  </data>
+  <data name="loadingIndicator" xml:space="preserve">
+    <value>Φορτώνει...</value>
+  </data>
+  <data name="setCategory_Appearance" xml:space="preserve">
+    <value>Εμφάνιση</value>
+  </data>
+  <data name="set_SortEntries" xml:space="preserve">
+    <value>Ταξινόμηση καταχωρήσεων</value>
+  </data>
+  <data name="pref_Alphabetically" xml:space="preserve">
+    <value>Αλφαβητικά</value>
+  </data>
+  <data name="pref_ByDate" xml:space="preserve">
+    <value>Κατά ημερομηνία</value>
+  </data>
+  <data name="pref_ByColor" xml:space="preserve">
+    <value>Κατά χρώμα</value>
+  </data>
+  <data name="set_ShowPasswords" xml:space="preserve">
+    <value>Εμφάνιση κωδικών πρόσβασης</value>
+  </data>
+  <data name="set_ShowPasswords_Detail" xml:space="preserve">
+    <value>Δεν χρειάζεται να πατήσετε το εικονίδιο του ματιού</value>
+  </data>
+  <data name="setCategory_Database" xml:space="preserve">
+    <value>Βάση δεδομένων</value>
+  </data>
+  <data name="set_BackupDatabase" xml:space="preserve">
+    <value>Βάση δεδομένων</value>
+  </data>
+  <data name="set_BackupDatabase_Detail" xml:space="preserve">
+    <value>Δημιουργία αντίγραφου ασφαλείας της βάσης δεδομένων</value>
+  </data>
+  <data name="set_RestoreDatabase" xml:space="preserve">
+    <value>Επαναφορά της βάσης δεδομένων</value>
+  </data>
+  <data name="set_RestoreDatabase_Detail" xml:space="preserve">
+    <value>Επαναφέρετε ένα αντίγραφο ασφαλείας μιας κρυπτογραφημένης βάσης δεδομένων</value>
+  </data>
+  <data name="set_AutoBackUp" xml:space="preserve">
+    <value>Αυτόματο αντίγραφο ασφαλείας</value>
+  </data>
+  <data name="set_AutoBackUp_Detail" xml:space="preserve">
+    <value>Μόλις γίνει μια αλλαγή, θα δημιουργηθεί ένα αντίγραφο ασφαλείας</value>
+  </data>
+  <data name="info_RestoreDatabase" xml:space="preserve">
+    <value>Η βάση δεδομένων έχει επαναφερθεί. Κάντε επανεκκίνηση της εφαρμογής</value>
+  </data>
+  <data name="set_ExportToCSVFile" xml:space="preserve">
+    <value>Εξαγωγή αρχείου .csv</value>
+  </data>
+  <data name="set_ExportToCSVFile_Detail" xml:space="preserve">
+    <value>Εξαγωγή καταχωρήσεων σε ένα μη-κρυπτογραφημένο αρχείο csv</value>
+  </data>
+  <data name="set_LogInMethod" xml:space="preserve">
+    <value>Προτιμώμενη μέθοδος σύνδεσης</value>
+  </data>
+  <data name="pref_PasswordOnly" xml:space="preserve">
+    <value>Μόνο κωδικό πρόσβασης</value>
+  </data>
+  <data name="pref_FingerprintOrPassword" xml:space="preserve">
+    <value>Δακτυλικό αποτύπωμα ή κωδικός πρόσβασης</value>
+  </data>
+  <data name="pref_PatternOrPassword" xml:space="preserve">
+    <value>Μοτίβο ή κωδικός πρόσβασης</value>
+  </data>
+  <data name="pref_security_title_clearclipboard" xml:space="preserve">
+    <value>Καθαρισμός πρόχειρου</value>
+  </data>
+  <data name="pref_security_clearclipboard_never" xml:space="preserve">
+    <value>Ποτέ</value>
+  </data>
+  <data name="pref_security_clearclipboard_1min" xml:space="preserve">
+    <value>1 λεπ.</value>
+  </data>
+  <data name="pref_security_clearclipboard_2min" xml:space="preserve">
+    <value>2 λεπ.</value>
+  </data>
+  <data name="pref_security_clearclipboard_3min" xml:space="preserve">
+    <value>3 λεπ.</value>
+  </data>
+  <data name="pref_security_clearclipboard_4min" xml:space="preserve">
+    <value>4 λεπ.</value>
+  </data>
+  <data name="pref_security_clearclipboard_5min" xml:space="preserve">
+    <value>5 λεπ.</value>
+  </data>
+  <data name="set_ImportFromCSVFile" xml:space="preserve">
+    <value>Εισαγωγή αρχείου .csv</value>
+  </data>
+  <data name="set_ImportFromCSVFile_Detail" xml:space="preserve">
+    <value>Εισαγωγή καταχωρήσεων από ένα μη-κρυπτογραφημένο αρχείο csv</value>
+  </data>
+  <data name="error_ChosenFileIsNotCSV" xml:space="preserve">
+    <value>Το επιλεγμένο αρχείο δεν έχει τη σωστή μορφή. Επιλέξτε ένα αρχείο .csv</value>
+  </data>
+  <data name="pref_security_title_self_destruct" xml:space="preserve">
+    <value>Αποτυχημένες προσπάθειες</value>
+  </data>
+  <data name="pref_security_self_destruct_unlimited" xml:space="preserve">
+    <value>Απεριόριστες</value>
+  </data>
+  <data name="alert_self_destruct_completed_title" xml:space="preserve">
+    <value>Reached max login attempts {0}</value>
+  </data>
+  <data name="alert_self_destruct_completed" xml:space="preserve">
+    <value>Λόγω της επίτευξης των μέγιστων προσπαθειών σύνδεσης, η βάση δεδομένων έχει πλέον διαγραφεί. Η εφαρμογή θα κλείσει</value>
+  </data>
+  <data name="error_CSVBadHead" xml:space="preserve">
+    <value>Το αρχείο αντιγράφου ασφαλείας δεν έχει τη σωστή μορφή. Ελέγξτε την κεφαλίδα</value>
+  </data>
+  <data name="setCategory_Security" xml:space="preserve">
+    <value>Ασφάλεια</value>
+  </data>
+  <data name="set_ChangeMasterPassword" xml:space="preserve">
+    <value>Αλλαγή κύριου κωδικού πρόσβασης</value>
+  </data>
+  <data name="set_FastEnter" xml:space="preserve">
+    <value>Γρήγορη είσοδος</value>
+  </data>
+  <data name="set_FastEnter_Detail" xml:space="preserve">
+    <value>Καθιστά πιο γρήγορη την είσοδο στην εφαρμογή χωρίς να χρειάζεται να πατάτε το κουμπί ΕΙΣΟΔΟΣ εάν ο κύριος κωδικός πρόσβασης είναι σωστός</value>
+  </data>
+  <data name="set_AutoExit" xml:space="preserve">
+    <value>Αυτόματη έξοδο</value>
+  </data>
+  <data name="set_AutoExit_Detail" xml:space="preserve">
+    <value>Η εφαρμογή θα κλειδωθεί αυτόματα μεταβαίνοντας σε άλλη εφαρμογή ή όταν απενεργοποιηθεί η οθόνη</value>
+  </data>
+  <data name="set_Fingerprint" xml:space="preserve">
+    <value>Είσοδος με δακτυλικό αποτύπωμα</value>
+  </data>
+  <data name="set_Fingerprint_Detail" xml:space="preserve">
+    <value>Ένα iPhone 5s ή νεότερη έκδοση, το iPad Pro, το iPad Air 2 ή το iPad mini 3 ή νεότερη έκδοση απαιτείται για να χρησιμοποιήσετε αυτή τη λειτουργία</value>
+  </data>
+  <data name="lastUpdated" xml:space="preserve">
+    <value>Τελευταία ενημέρωση</value>
+  </data>
+  <data name="last" xml:space="preserve">
+    <value>Τελευταία</value>
+  </data>
+  <data name="back" xml:space="preserve">
+    <value>Πίσω</value>
+  </data>
+  <data name="set_or_change_pattern" xml:space="preserve">
+    <value>Ορίστε ή αλλάξτε το μοτίβο</value>
+  </data>
+  <data name="newEntry" xml:space="preserve">
+    <value>Προσθήκη</value>
+  </data>
+  <data name="change_master_password" xml:space="preserve">
+    <value>Αλλαγή κύριου κωδικού</value>
+  </data>
+  <data name="dialog_title_change_master_password" xml:space="preserve">
+    <value>Αλλαγή κύριου κωδικού;</value>
+  </data>
+  <data name="dialog_msg_changing_master_password" xml:space="preserve">
+    <value>Αλλάζοντας τον κύριο κωδικό πρόσβασης δεν θα μπορείται να επαναφέρετε αντίγραφα ασφαλείας τα οποία δημιουργήθηκαν με τον τρέχων κωδικό πρόσβασης.</value>
+  </data>
+  <data name="dialog_msg_changed_master_password" xml:space="preserve">
+    <value>Ο κύριος κωδικός άλλαξε</value>
+  </data>
+  <data name="oldPassword" xml:space="preserve">
+    <value>παλιός κωδικός</value>
+  </data>
+  <data name="newPassword" xml:space="preserve">
+    <value>καινούριος κωδικός</value>
+  </data>
+  <data name="setNewLockPattern" xml:space="preserve">
+    <value>Ορίστε νέο μοτίβο</value>
+  </data>
+  <data name="setNewLockPattern_AlertTitle" xml:space="preserve">
+    <value>Νέα τιμή μοτίβου κλειδώματος</value>
+  </data>
+  <data name="setNewLockPattern_AlertMessage" xml:space="preserve">
+    <value>Η νέα τιμή θα είναι:</value>
+  </data>
+  <data name="lbl_Pattern_Title" xml:space="preserve">
+    <value>Μοτίβο για 'MyPasswords'</value>
+  </data>
+  <data name="lbl_Pattern_Detail" xml:space="preserve">
+    <value>MyPasswords ξεκλειδώστε</value>
+  </data>
+  <data name="length" xml:space="preserve">
+    <value>Μήκος</value>
+  </data>
+  <data name="password_generator_upperCase" xml:space="preserve">
+    <value>Κεφαλαία</value>
+  </data>
+  <data name="password_generator_lowerCase" xml:space="preserve">
+    <value>Πεζά</value>
+  </data>
+  <data name="password_generator_numeric" xml:space="preserve">
+    <value>Αριθμοί</value>
+  </data>
+  <data name="password_generator_specialChars" xml:space="preserve">
+    <value>Ειδικοί χαρακτήρες</value>
+  </data>
+  <data name="alert_passgen_settings" xml:space="preserve">
+    <value>Δεν είναι δυνατή η δημιουργία κωδικού πρόσβασης όταν απενεργοποιηθούν όλες οι ρυθμίσεις.</value>
+  </data>
+  <data name="title_password_generator" xml:space="preserve">
+    <value>Γεννήτρια κωδικών</value>
+  </data>
+  <data name="repeat" xml:space="preserve">
+    <value>Επαναλάβετε</value>
+  </data>
+</root>

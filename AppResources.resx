@@ -1,0 +1,534 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="alert_emptyTitel" xml:space="preserve">
+    <value>The title cannot be empty</value>
+  </data>
+  <data name="app_description" xml:space="preserve">
+    <value>A secure and easy to use password manager for iOS devices</value>
+  </data>
+  <data name="app_name" xml:space="preserve">
+    <value>My Passwords</value>
+  </data>
+  <data name="dialog_title_confirm_fp" xml:space="preserve">
+    <value>Unlock the app</value>
+  </data>
+  <data name="button_enter" xml:space="preserve">
+    <value>ENTER</value>
+  </data>
+  <data name="button_register" xml:space="preserve">
+    <value>REGISTER</value>
+  </data>
+  <data name="myPasswords" xml:space="preserve">
+    <value>All entries</value>
+  </data>
+  <data name="favorites" xml:space="preserve">
+    <value>Favorites</value>
+  </data>
+  <data name="about" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="repeat" xml:space="preserve">
+    <value>Repeat</value>
+  </data>
+  <data name="repeatPassword" xml:space="preserve">
+    <value>Repeat password</value>
+  </data>
+  <data name="errorPasswordIsTooShort" xml:space="preserve">
+    <value>Password is too short</value>
+  </data>
+  <data name="errorFieldRequired" xml:space="preserve">
+    <value>Field is required</value>
+  </data>
+  <data name="errorPasswordsMatch" xml:space="preserve">
+    <value>Passwords don't match</value>
+  </data>
+  <data name="noEntries" xml:space="preserve">
+    <value>There are no entries</value>
+  </data>
+  <data name="password_not_correct_title" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="password_not_correct" xml:space="preserve">
+    <value>The password is not correct</value>
+  </data>
+  <data name="password_not_correct_PRO" xml:space="preserve">
+    <value>The password is not correct. The self-destruction is activated and you have {0} more tries.</value>
+  </data>
+  <data name="pref_about_title_contact" xml:space="preserve">
+    <value>Report a bug</value>
+  </data>
+  <data name="pref_about_title_support" xml:space="preserve">
+    <value>Rate and review</value>
+  </data>
+  <data name="pref_about_title_share" xml:space="preserve">
+    <value>Tell your friends</value>
+  </data>
+  <data name="pref_about_title_translations" xml:space="preserve">
+    <value>Translations</value>
+  </data>
+  <data name="pref_about_title_licenses" xml:space="preserve">
+    <value>Open source licenses</value>
+  </data>
+  <data name="pref_about_title_build_version" xml:space="preserve">
+    <value>Build version</value>
+  </data>
+  <data name="pref_about_title_terms" xml:space="preserve">
+    <value>Terms and privacy policy</value>
+  </data>
+  <data name="pref_about_title_faq" xml:space="preserve">
+    <value>FAQ</value>
+  </data>
+  <data name="menu_upgrade" xml:space="preserve">
+    <value>Go PRO!</value>
+  </data>
+  <data name="button_upgrade_now" xml:space="preserve">
+    <value>UPGRADE NOW</value>
+  </data>
+  <data name="menu_restore" xml:space="preserve">
+    <value>Restore PRO version</value>
+  </data>
+  <data name="error_restore" xml:space="preserve">
+    <value>No purchase found</value>
+  </data>
+  <data name="button_restore" xml:space="preserve">
+    <value>Restore</value>
+  </data>
+  <data name="inAppPurchaseCanceledTitle" xml:space="preserve">
+    <value>Tell us your opinion</value>
+  </data>
+  <data name="inAppPurchaseCanceledMessage" xml:space="preserve">
+    <value>We are very sorry if you are not satisfied with the app. Would you like to let us know what you didn't like?</value>
+  </data>
+  <data name="error_network_connectivity" xml:space="preserve">
+    <value>Cannot connect to iTunes. Check network connectivity.</value>
+  </data>
+  <data name="upgrade_thank_you" xml:space="preserve">
+    <value>Thank you for purchasing the PRO version.</value>
+  </data>
+  <data name="all" xml:space="preserve">
+    <value>All </value>
+  </data>
+  <data name="pro" xml:space="preserve">
+    <value>PRO </value>
+  </data>
+  <data name="features" xml:space="preserve">
+    <value>features</value>
+  </data>
+  <data name="upgrade_feature_1" xml:space="preserve">
+    <value>✔  Export &amp; import .csv files</value>
+  </data>
+  <data name="upgrade_feature_2" xml:space="preserve">
+    <value>✔  Auto backup</value>
+  </data>
+  <data name="upgrade_feature_3" xml:space="preserve">
+    <value>✔  Clipboard auto clear</value>
+  </data>
+  <data name="upgrade_feature_4" xml:space="preserve">
+    <value>✔  Self destruction</value>
+  </data>
+  <data name="upgrade_feature_5" xml:space="preserve">
+    <value>✔  Enter using lock pattern</value>
+  </data>
+  <data name="upgrade_feature_6" xml:space="preserve">
+    <value>✔  Custom code generator</value>
+  </data>
+  <data name="upgrade_accept" xml:space="preserve">
+    <value>By purchasing the PRO version you accept the terms</value>
+  </data>
+  <data name="settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="welcome_info_content" xml:space="preserve">
+    <value>Please register a master password to start using the application. Note that if the master password is lost the stored data cannot be recovered because of the missing sync option. It is strongly recommended that you backup your data at regular intervals.</value>
+  </data>
+  <data name="welcome_info_title" xml:space="preserve">
+    <value>Welcome to My Passwords</value>
+  </data>
+  <data name="menu_search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="menuItem_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="labelTitle" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="labelAccount" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="labelUsername" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="labelPassword" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="labelWebsite" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="labelDescription" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="m_continue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="done" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="selectColor" xml:space="preserve">
+    <value>Select a color</value>
+  </data>
+  <data name="copiedToClipboard" xml:space="preserve">
+    <value>Copied to clipboard</value>
+  </data>
+  <data name="set_pro_autoBackup" xml:space="preserve">
+    <value>[PRO] AUTO BACKUP</value>
+  </data>
+  <data name="set_pro_csv" xml:space="preserve">
+    <value>[PRO] CSV</value>
+  </data>
+  <data name="set_pro_fingerprint" xml:space="preserve">
+    <value>[PRO] FINGERPRINT</value>
+  </data>
+  <data name="set_pro_clipboard" xml:space="preserve">
+    <value>[PRO] CLIPBOARD</value>
+  </data>
+  <data name="set_pro_selfDestruct" xml:space="preserve">
+    <value>[PRO] SELF DESTRUCT</value>
+  </data>
+  <data name="loadingIndicator" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="setCategory_Appearance" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+  <data name="set_SortEntries" xml:space="preserve">
+    <value>Sort entries</value>
+  </data>
+  <data name="pref_Alphabetically" xml:space="preserve">
+    <value>Alphabetically</value>
+  </data>
+  <data name="pref_ByDate" xml:space="preserve">
+    <value>By date</value>
+  </data>
+  <data name="pref_ByColor" xml:space="preserve">
+    <value>By color</value>
+  </data>
+  <data name="set_ShowPasswords" xml:space="preserve">
+    <value>Show passwords</value>
+  </data>
+  <data name="set_ShowPasswords_Detail" xml:space="preserve">
+    <value>You don't have to press the eye icon</value>
+  </data>
+  <data name="setCategory_Database" xml:space="preserve">
+    <value>Database</value>
+  </data>
+  <data name="set_BackupDatabase" xml:space="preserve">
+    <value>Backup database</value>
+  </data>
+  <data name="set_BackupDatabase_Detail" xml:space="preserve">
+    <value>Create a backup of the encrypted database</value>
+  </data>
+  <data name="set_RestoreDatabase" xml:space="preserve">
+    <value>Restore database</value>
+  </data>
+  <data name="set_RestoreDatabase_Detail" xml:space="preserve">
+    <value>Restore a backup of an encrypted database</value>
+  </data>
+  <data name="set_AutoBackUp" xml:space="preserve">
+    <value>Auto backup</value>
+  </data>
+  <data name="set_AutoBackUp_Detail" xml:space="preserve">
+    <value>Once a change will be made, a backup will be created</value>
+  </data>
+  <data name="info_RestoreDatabase" xml:space="preserve">
+    <value>The database has been restored. Please restart the app.</value>
+  </data>
+  <data name="set_ExportToCSVFile" xml:space="preserve">
+    <value>Export csv file</value>
+  </data>
+  <data name="set_ExportToCSVFile_Detail" xml:space="preserve">
+    <value>Export the entries to a non-encrypted csv file</value>
+  </data>
+  <data name="set_LogInMethod" xml:space="preserve">
+    <value>Preferred login method</value>
+  </data>
+  <data name="pref_PasswordOnly" xml:space="preserve">
+    <value>Password only</value>
+  </data>
+  <data name="pref_FingerprintOrPassword" xml:space="preserve">
+    <value>Fingerprint or password</value>
+  </data>
+  <data name="pref_PatternOrPassword" xml:space="preserve">
+    <value>Pattern or password</value>
+  </data>
+  <data name="pref_security_title_clearclipboard" xml:space="preserve">
+    <value>Clear Clipboard</value>
+  </data>
+  <data name="pref_security_clearclipboard_never" xml:space="preserve">
+    <value>Never</value>
+  </data>
+  <data name="pref_security_clearclipboard_1min" xml:space="preserve">
+    <value>1 min</value>
+  </data>
+  <data name="pref_security_clearclipboard_2min" xml:space="preserve">
+    <value>2 min</value>
+  </data>
+  <data name="pref_security_clearclipboard_3min" xml:space="preserve">
+    <value>3 min</value>
+  </data>
+  <data name="pref_security_clearclipboard_4min" xml:space="preserve">
+    <value>4 min</value>
+  </data>
+  <data name="pref_security_clearclipboard_5min" xml:space="preserve">
+    <value>5 min</value>
+  </data>
+  <data name="set_ImportFromCSVFile" xml:space="preserve">
+    <value>Import csv file</value>
+  </data>
+  <data name="set_ImportFromCSVFile_Detail" xml:space="preserve">
+    <value>Import entries from a non-encrypted csv file</value>
+  </data>
+  <data name="error_ChosenFileIsNotCSV" xml:space="preserve">
+    <value>The chosen file does not have the proper format. Please select a '.csv' file.</value>
+  </data>
+  <data name="pref_security_title_self_destruct" xml:space="preserve">
+    <value>Failed password attempts</value>
+  </data>
+  <data name="pref_security_self_destruct_unlimited" xml:space="preserve">
+    <value>Unlimited</value>
+  </data>
+  <data name="alert_self_destruct_completed_title" xml:space="preserve">
+    <value>Reached max login attempts {0}</value>
+  </data>
+  <data name="alert_self_destruct_completed" xml:space="preserve">
+    <value>Because of reaching the max login attempts the database now has been deleted. The app will be closed.</value>
+  </data>
+  <data name="error_CSVBadHead" xml:space="preserve">
+    <value>The backup file doesn't have the proper format. Please check the header.</value>
+  </data>
+  <data name="setCategory_Security" xml:space="preserve">
+    <value>Security</value>
+  </data>
+  <data name="set_ChangeMasterPassword" xml:space="preserve">
+    <value>Change master password</value>
+  </data>
+  <data name="set_FastEnter" xml:space="preserve">
+    <value>Fast enter</value>
+  </data>
+  <data name="set_FastEnter_Detail" xml:space="preserve">
+    <value>Makes it faster to enter the application without having to tap the ENTER button if the master password is correct</value>
+  </data>
+  <data name="set_AutoExit" xml:space="preserve">
+    <value>Auto exit</value>
+  </data>
+  <data name="set_AutoExit_Detail" xml:space="preserve">
+    <value>The application will automatically locked by switching to another application or when the screen turns off</value>
+  </data>
+  <data name="set_Fingerprint" xml:space="preserve">
+    <value>Enter using fingerprint</value>
+  </data>
+  <data name="set_Fingerprint_Detail" xml:space="preserve">
+    <value>An iPhone 5s or later, iPad Pro, iPad Air 2, or iPad mini 3 or later is required to use this feature</value>
+  </data>
+  <data name="lastUpdated" xml:space="preserve">
+    <value>Last updated </value>
+  </data>
+  <data name="last" xml:space="preserve">
+    <value>Last</value>
+  </data>
+  <data name="back" xml:space="preserve">
+    <value>Back</value>
+		 
+														  
+																
+  </data>
+  <data name="newEntry" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="set_or_change_pattern" xml:space="preserve">
+    <value>Set or change the pattern</value>
+  </data>
+  <data name="change_master_password" xml:space="preserve">
+    <value>Change master password</value>
+  </data>
+  <data name="dialog_title_change_master_password" xml:space="preserve">
+    <value>Change master password?</value>
+  </data>
+  <data name="dialog_msg_changing_master_password" xml:space="preserve">
+    <value>By changing the master password you will not be able to restore database backups that were created with the current master password.</value>
+  </data>
+  <data name="dialog_msg_changed_master_password" xml:space="preserve">
+    <value>The master password has been changed.</value>
+  </data>
+  <data name="oldPassword" xml:space="preserve">
+    <value>old password</value>
+  </data>
+  <data name="newPassword" xml:space="preserve">
+    <value>new password</value>
+  </data>
+  <data name="setNewLockPattern" xml:space="preserve">
+    <value>Set new pattern</value>
+  </data>
+  <data name="setNewLockPattern_AlertTitle" xml:space="preserve">
+    <value>New lock pattern value</value>
+  </data>
+  <data name="setNewLockPattern_AlertMessage" xml:space="preserve">
+    <value>The new value will be:</value>
+  </data>
+  <data name="lbl_Pattern_Title" xml:space="preserve">
+    <value>Pattern for 'MyPasswords'</value>
+  </data>
+  <data name="lbl_Pattern_Detail" xml:space="preserve">
+    <value>MyPasswords unlock</value>
+  </data>
+  <data name="length" xml:space="preserve">
+    <value>Length</value>
+  </data>
+  <data name="password_generator_upperCase" xml:space="preserve">
+    <value>Uppercase</value>
+  </data>
+  <data name="password_generator_lowerCase" xml:space="preserve">
+    <value>Lowercase</value>
+  </data>
+  <data name="password_generator_numeric" xml:space="preserve">
+    <value>Numeric</value>
+  </data>
+  <data name="password_generator_specialChars" xml:space="preserve">
+    <value>Special characters</value>
+  </data>
+  <data name="alert_passgen_settings" xml:space="preserve">
+    <value>A password cannot be generated if all settings are deactivated.</value>
+  </data>
+  <data name="title_password_generator" xml:space="preserve">
+    <value>Password Generator</value>
+  </data>
+</root>
